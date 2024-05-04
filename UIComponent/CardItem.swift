@@ -35,6 +35,8 @@ struct CardItem: View {
                         card.turnOver()
                         userChoices.append(card)
                     } else if userChoices.count == 1 {
+                        card.turnOver()
+                        userChoices.append(card)
                         withAnimation(Animation.linear.delay(1)) {
                             for thisCard in userChoices {
                                 thisCard.turnOver()
