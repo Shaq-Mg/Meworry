@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4699F4512BE671E800504344 /* MeworryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4699F4502BE671E800504344 /* MeworryApp.swift */; };
-		4699F4532BE671E800504344 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4699F4522BE671E800504344 /* ContentView.swift */; };
+		4699F4532BE671E800504344 /* CardGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4699F4522BE671E800504344 /* CardGameView.swift */; };
 		4699F4552BE671E800504344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4699F4542BE671E800504344 /* Assets.xcassets */; };
 		4699F4582BE671E800504344 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4699F4572BE671E800504344 /* Preview Assets.xcassets */; };
 		4699F4622BE671E900504344 /* MeworryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4699F4612BE671E900504344 /* MeworryTests.swift */; };
@@ -38,7 +38,7 @@
 /* Begin PBXFileReference section */
 		4699F44D2BE671E800504344 /* Meworry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meworry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4699F4502BE671E800504344 /* MeworryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeworryApp.swift; sourceTree = "<group>"; };
-		4699F4522BE671E800504344 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4699F4522BE671E800504344 /* CardGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGameView.swift; sourceTree = "<group>"; };
 		4699F4542BE671E800504344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4699F4572BE671E800504344 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4699F45D2BE671E900504344 /* MeworryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeworryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,7 +145,7 @@
 		4699F47B2BE6720B00504344 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4699F4522BE671E800504344 /* ContentView.swift */,
+				4699F4522BE671E800504344 /* CardGameView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -303,7 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4699F4532BE671E800504344 /* ContentView.swift in Sources */,
+				4699F4532BE671E800504344 /* CardGameView.swift in Sources */,
 				4699F4802BE6726000504344 /* Card.swift in Sources */,
 				4699F4832BE6750D00504344 /* CardItem.swift in Sources */,
 				4699F4512BE671E800504344 /* MeworryApp.swift in Sources */,

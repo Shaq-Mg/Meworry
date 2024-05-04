@@ -40,9 +40,17 @@ struct CardItem: View {
                                 thisCard.turnOver()
                             }
                         }
+                        checkForMatch()
                     }
                 }
         }
+    }
+    private func checkForMatch() {
+        if userChoices[0].text == userChoices[1].text {
+            matchedCards.append(userChoices[0])
+            matchedCards.append(userChoices[1])
+        }
+        userChoices.removeAll()
     }
 }
 

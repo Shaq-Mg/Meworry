@@ -37,4 +37,4 @@ func createCardList() -> [Card] {
     return cardList
 }
 
-let faceDown = Card(text: "?")
+let faceDownCard = Card(text: "?")
