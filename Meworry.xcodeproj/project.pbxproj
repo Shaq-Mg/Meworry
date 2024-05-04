@@ -14,6 +14,7 @@
 		4699F4622BE671E900504344 /* MeworryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4699F4612BE671E900504344 /* MeworryTests.swift */; };
 		4699F46C2BE671E900504344 /* MeworryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4699F46B2BE671E900504344 /* MeworryUITests.swift */; };
 		4699F46E2BE671E900504344 /* MeworryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4699F46D2BE671E900504344 /* MeworryUITestsLaunchTests.swift */; };
+		4699F4802BE6726000504344 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4699F47F2BE6726000504344 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4699F4672BE671E900504344 /* MeworryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeworryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4699F46B2BE671E900504344 /* MeworryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeworryUITests.swift; sourceTree = "<group>"; };
 		4699F46D2BE671E900504344 /* MeworryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeworryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4699F47F2BE6726000504344 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,11 @@
 		4699F4442BE671E800504344 = {
 			isa = PBXGroup;
 			children = (
+				4699F47A2BE6720600504344 /* App */,
+				4699F47E2BE6721F00504344 /* UIComponent */,
+				4699F47D2BE6721A00504344 /* Model */,
+				4699F47C2BE6721300504344 /* ViewModel */,
+				4699F47B2BE6720B00504344 /* Views */,
 				4699F44F2BE671E800504344 /* Meworry */,
 				4699F4602BE671E900504344 /* MeworryTests */,
 				4699F46A2BE671E900504344 /* MeworryUITests */,
@@ -94,8 +101,6 @@
 		4699F44F2BE671E800504344 /* Meworry */ = {
 			isa = PBXGroup;
 			children = (
-				4699F4502BE671E800504344 /* MeworryApp.swift */,
-				4699F4522BE671E800504344 /* ContentView.swift */,
 				4699F4542BE671E800504344 /* Assets.xcassets */,
 				4699F4562BE671E800504344 /* Preview Content */,
 			);
@@ -125,6 +130,44 @@
 				4699F46D2BE671E900504344 /* MeworryUITestsLaunchTests.swift */,
 			);
 			path = MeworryUITests;
+			sourceTree = "<group>";
+		};
+		4699F47A2BE6720600504344 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4699F4502BE671E800504344 /* MeworryApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4699F47B2BE6720B00504344 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4699F4522BE671E800504344 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4699F47C2BE6721300504344 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4699F47D2BE6721A00504344 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4699F47F2BE6726000504344 /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4699F47E2BE6721F00504344 /* UIComponent */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIComponent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4699F4532BE671E800504344 /* ContentView.swift in Sources */,
+				4699F4802BE6726000504344 /* Card.swift in Sources */,
 				4699F4512BE671E800504344 /* MeworryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
